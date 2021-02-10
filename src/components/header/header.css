@@ -1,0 +1,45 @@
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+
+}
+.icon{
+  margin: 2rem;
+  cursor:pointer;
+}
+.icon span{
+	color:blue;
+}
+.menu{
+	background-color:#ebebeb;
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor:pointer;
+	margin: 2rem;
+}
+.hidden-menu{
+	background-color: #000;
+	color:#fff;
+}
+@media only screen and (min-width: 600px){
+	.menu{
+		display: none;
+	}
+	.header{
+		justify-content: space-between;
+	}
+	}
+@media only screen and (min-width: 1080px){
+	.icon{
+		margin:2rem 4rem;
+	}
+	.form{
+		margin-right: 6rem;
+	}
+}

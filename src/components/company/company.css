@@ -1,0 +1,31 @@
+.company{
+	background-color:#fafafa;
+	margin:1rem 2rem;
+	padding:1rem;
+	border-radius:2px;
+	border:0.5px solid #ebebeb;
+	cursor:pointer;
+}
+.statements ul li{
+	float:left;
+	color:blue;
+	cursor: pointer;
+}
+.statements{
+	background-color:#fafafa;
+	margin:3rem 2rem;
+}
+.details{
+	margin:1rem 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:1rem;
+	text-align:left;
+
+}
+.details p{
+	overflow:hidden;
+}
+.details p span{
+	color:blue;
+}
