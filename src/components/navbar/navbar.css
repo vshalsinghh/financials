@@ -68,11 +68,7 @@
 @media only screen and (min-width: 1080px){
 	
 	 .navbar, .navbarHidden{
-	 	padding:.5rem 4rem;
+	 	padding-left:4rem;
 		    
 		}
-		.subnav-content{
-			margin:1.5rem 2rem;
-		}
-	
 }
