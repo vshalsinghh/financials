@@ -12,7 +12,6 @@ const Company = ({data, tableDataType, changeDataType}) => {
 		data.quoteType ? datahasValue=data.quoteType.messageBoardId : datahasValue=false; 
 		if(datahasValue){
 			indexKeys=[...Object.keys(data.quoteType)];
-			console.log(indexKeys);
 		}
 	return(
 		<div>{ datahasValue ?

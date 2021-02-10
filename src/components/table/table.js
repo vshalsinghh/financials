@@ -25,11 +25,7 @@ const Table = ({data, tableDataType}) => {
 
 		updatedKeys= indexKeys.filter(value=> value!=='maxAge'&& value!=='endDate');
 
-		console.log('final index value for arrayFromData',arrayFromData,updatedKeys)
 	}
-	 else{
-	 	  console.log('yet to get data');
-	 }
 	 
 	return (
 		<div className='table'>

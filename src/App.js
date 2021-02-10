@@ -39,7 +39,6 @@ class App extends React.Component {
         })
         .then(response => response.json())
           .then(res => {
-            console.log(res)
             this.setState({
               data:{...res},
               loading:false,
@@ -82,23 +81,20 @@ class App extends React.Component {
         })
         .then(response =>response.json())
           .then(res => {
-            console.log(res)
             this.setState({
               data:{...res},
               loading:false,
             })
           })
-        .catch(async err => {
+        .catch( err => {
           console.error(err);
-          await this.setState({error:true, loading:false});
-          console.log('there is error',this.state.error)
+         this.setState({error:true, loading:false});
         });
 
   }
 
   toggleMenu = async () => {
     await this.setState({toggleNav:!this.state.toggleNav})
-    console.log('changed nav toggle to' ,this.state.toggleNav);
   }
 
   
